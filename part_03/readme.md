@@ -2,7 +2,7 @@
 
 ## Overview
 
-(Progress report due) September 5, 2017
+(Progress report due) November 29, 2017
 
 The finish line is in sight! You should have your data in hand and some models made. This portion of the Capstone contains two parts to help really hone your model and develop mastery over your final project.
 
@@ -22,12 +22,12 @@ The actual deliverable for this section is fairly small. You are expected to sub
 6. What is your timeline for the next week and a half? What do you _have_ to get done versus what would you _like_ to get done?
 7. What topics do you want to discuss during your 1:1?
 
-We will use your progress report as a leaping off point for a deep 1:1 with Richard and Carleton. The best use of your time is to really flesh out this document so that your remaining time here can be most productive.
+We will use your progress report as a leaping off point for a deep 1:1 with a member of the instructional staff. The best use of your time is to really flesh out this document so that your remaining time here can be most productive.
 
-After you submit this document no later than *9:00 AM, September 5, 2017*, we will set up times to meet individually with you to discuss the Capstone with your progress report as a jumping off point.
+After you submit this document no later than *end of day, November 29, 2017*, the team will set up times to meet individually with you to discuss the Capstone with your progress report as a jumping off point.
 
 ## Necessary Deliverables / Submission
 
-- Your progress report (touching on the points above) submitted no later than *9:00 AM, September 5, 2017* and a successful 1:1 with Richard and Carleton.
+- Your progress report (touching on the points above) submitted no later than *end of day, November 29, 2017* and a successful 1:1 with a member of the instructional staff.
 
-Please find the Google Form [here](https://goo.gl/forms/HeDlGqJcsP56LCVm1).
+Please find the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2).

@@ -1,14 +1,14 @@
 # Part 1
 
-Due: August 15, 2017
+Due: October 27, 2017
 
 ## Overview
 
-In this section, you will be presenting the core of your idea to your coursemates (and fellow well-wishers!) You will be presenting your findings in the form of a [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk). 
+In this section, you will be presenting three potential topics to your coursemates (and fellow well-wishers!) You will be presenting your findings in the form of a [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk). 
 
 ## What is a lightning talk?
 
-For our purposes, a lightning talk is a talk lasting **no more than five minutes**, in which you will discuss the following about your project:
+For our purposes, a lightning talk is a talk lasting **no more than five minutes**, in which you will discuss the following about your three proposed projects:
 
 1. What your ultimate question is (i.e., what do you want to predict about the world?)
 2. Why should we care / why do _you_ care? 
@@ -20,7 +20,7 @@ We will expect that you have a slide deck of some kind -- using Google Slides is
 
 ## Expectations
 
-1. A slide deck and talk that answers the three questions outlined above
+1. A slide deck and talk that answers the three questions about your proposed projects outlined above
 2. The ability to intelligently answer any reasonable question about your project or data 
 
 ## Recommendations
@@ -37,9 +37,5 @@ There is no penalty for having to switch topics or datasets in the middle of the
 
 ## Deliverables
 
-1. Your presentation (on time) on August 15, 2017
+1. Your presentation (on time!) on October 27, 2017
 2. A link (or the actual `.ppt` file) by the time that you give the talk
-
-## Rubric
-
-Your presentation will be evaluted on whether or not you complete it (i.e., pass / fail) however, I am happy to provide extended feedback on your presentation upon request. Please let me know no later than August 14 if that is the case!
