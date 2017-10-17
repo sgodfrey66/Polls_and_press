@@ -6,6 +6,8 @@ Due: October 27, 2017
 
 In this section, you will be presenting three potential topics to your coursemates (and fellow well-wishers!) You will be presenting your findings in the form of a [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk). 
 
+#### Your Slides Must Be on Google Slides. No Exceptions!
+
 ## What is a lightning talk?
 
 For our purposes, a lightning talk is a talk lasting **no more than five minutes**, in which you will discuss the following about your three proposed projects:
@@ -38,4 +40,4 @@ There is no penalty for having to switch topics or datasets in the middle of the
 ## Deliverables
 
 1. Your presentation (on time!) on October 27, 2017
-2. A link (or the actual `.ppt` file) by the time that you give the talk
+2. A Google Slides presentation (your presentation **must** be hosted on Google Slides. No Exceptions!)

@@ -16,6 +16,7 @@ In Part 1, get started by choosing **three potential topics and problems**, desc
 
 - **Goal**: Prepare a 3-5 minute lightning talk that covers three potential topics, including potential sources of data and 
 - **Due**: October 27, 2017 (Friday)
+- **Note**: Your slides **MUST** be in google slides. No exceptions!
 
 ### **[Capstone, Part 2: Problem Statement + EDA](./part_02/)**
 
