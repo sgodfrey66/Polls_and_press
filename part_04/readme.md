@@ -10,7 +10,7 @@ _Goal_: A technical report and submission of (near-)final modeling code
 
 ## Requirements
 
-You are expected to submit the following (on your public Github account) by _end of day, December 18, 2017_:
+You are expected to submit the following (on your public Github account) by _end of day, April 6, 2018_:
 
 - A technical report on your modeling choices and assumptions written for a fellow Data Scientist
 - A (near-)final version of your code
@@ -37,4 +37,4 @@ Your code may be structured in any way you choose (though obviously, efficient a
 
 ## Necessary Deliverables / Submission
 
-- Your code and technical report posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, December 18, 2017_.
+- Your code and technical report posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, April 6, 2018_.
