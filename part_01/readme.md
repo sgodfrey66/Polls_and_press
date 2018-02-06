@@ -39,5 +39,5 @@ There is no penalty for having to switch topics or datasets in the middle of the
 
 ## Deliverables
 
-1. Your presentation (on time!) on October 27, 2017
+1. Your presentation (on time!) on February 16, 2018 
 2. A Google Slides presentation (your presentation **must** be hosted on Google Slides. No Exceptions!)
