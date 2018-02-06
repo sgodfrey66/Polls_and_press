@@ -2,11 +2,11 @@
 
 ## Overview
 
-(Progress report due) November 29, 2017
+Progress report due March 29, 2018.
 
 The finish line is in sight! You should have your data in hand and some models made. This portion of the Capstone contains two parts to help really hone your model and develop mastery over your final project.
 
-*Goal*: A written progress report on your project submitted the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2) and a detailed 1:1 with with your instructors.
+*Goal*: A written progress report on your project submitted the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2) (UPDATE LINK) and a detailed 1:1 with with your instructors.
 
 ---
 
@@ -24,10 +24,10 @@ The actual deliverable for this section is fairly small. You are expected to sub
 
 We will use your progress report as a leaping off point for a deep 1:1 with a member of the instructional staff. The best use of your time is to really flesh out this document so that your remaining time here can be most productive.
 
-After you submit this document no later than *end of day, November 29, 2017* via the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2), the instructional team will set up times to meet individually with you to discuss the Capstone with your progress report as a jumping off point.
+After you submit this document no later than *end of day, November 29, 2017* via the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2) (UPDATE LINK), the instructional team will set up times to meet individually with you to discuss the Capstone with your progress report as a jumping off point.
 
 ## Necessary Deliverables / Submission
 
 - Your progress report (touching on the points above) submitted no later than *end of day, November 29, 2017* and a successful 1:1 with a member of the instructional staff.
 
-Please find the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2).
+Please find the Google Form [here](https://goo.gl/forms/52JPjyuazVumztZM2) (UPDATE LINK).
