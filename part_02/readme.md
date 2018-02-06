@@ -1,6 +1,6 @@
 # Part 2
 
-Due: November 15, 2017 
+Due: March 9, 2018
 
 ### Overview
 
@@ -23,4 +23,4 @@ We expect a formatted and complete Jupyter Notebook by end of class on November 
 
 ### Necessary Deliverables / Submission
 
- - Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by end of day to [this google form](https://goo.gl/forms/W4cU06SjDmX1MMnd2).
+ - Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by end of day to [this google form](https://goo.gl/forms/W4cU06SjDmX1MMnd2). (UPDATE LINK)
