@@ -1,6 +1,6 @@
 # Part 1
 
-Due: October 27, 2017
+Due: February 16, 2018
 
 ## Overview
 
