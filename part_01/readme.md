@@ -18,8 +18,6 @@ For our purposes, a lightning talk is a talk lasting **no more than five minutes
 
 Time limits will be strictly enforced -- you will get a warning at 1 minute, however.
 
-We will expect that you have a slide deck of some kind -- using Google Slides is _highly_ encouraged, however.
-
 ## Expectations
 
 1. A slide deck and talk that answers the three questions about your proposed projects outlined above
