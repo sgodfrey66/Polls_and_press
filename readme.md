@@ -24,7 +24,7 @@ For Part 2, provide an overview of your approach to solving the problem you've c
 
 #### Again, your data should be in hand by this point the process!
 
-- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor (a submission link will be provided prior to the due date)
+- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScez-8PsyIgP548fNtsoDpuNTdKxsr6tVvKPDtbr-mQov6NCw/viewform?usp=sf_link))
 - **Due**: March 9, 2018 (Friday)
 
 ### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part_03/)**
