@@ -23,4 +23,4 @@ We expect a formatted and complete Jupyter Notebook by end of class on March 9, 
 
 ### Necessary Deliverables / Submission
 
- - Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by the due date (a submission link will be provided prior to the due date).
+ - Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by the due date ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScez-8PsyIgP548fNtsoDpuNTdKxsr6tVvKPDtbr-mQov6NCw/viewform?usp=sf_link)).
