@@ -10,19 +10,20 @@ Your Capstone project is the culmination of your time at GA. You will be tasked 
 
 ### **[Capstone, Part 1: Capstone Topic + Dataset Validation](./part_01/)**
 
-In Part 1, get started by choosing **three potential topics and problems**, describing your goals & criteria for success, potential audience(s), and identifying 1-2 potential datasets. You will present this information in a slide deck, and should be prepared to answer questions and defend your data selection(s). Presentations should take no more than 3-5 minutes.
+In Part 1, get started by choosing **three potential topics and problems**, describing your goals & criteria for success, potential audience(s), and identifying 1-2 potential datasets. In the field of data science, good projects are practical. Your capstone project should be manageable and affect a real world audience. This might be a domain you are familiar with, a particular interest you have, something that affects a community you are involved in, or an area that relates to a field you wish to work in.
+
+One of the best ways to test ideas quickly is to share them with others. A good data scientist has to be comfortable discussing ideas and presenting to audiences. That's why for Part 1 of your Capstone project, you'll be preparing a lightning talk in addition to your initial notebook outlining the scope of your project.  You will present your candidate topics in a slide deck, and should be prepared to answer questions and defend your data selection(s). Presentations should take no more than 3-5 minutes.
 
 **The ultimate choice of topic for your capstone project is yours!** However, this is research and development work. Sometimes projects that look easy can be difficult and vice versa. It never hurts to have a second (or third) option available.
 
-- **Goal**: Prepare a 3-5 minute lightning talk that covers three potential topics, including potential sources of data and 
+- **Goal**: Prepare a 3-5 minute lightning talk that covers three potential topics, including potential sources of data, goals, metrics and audience.
 - **Due**: February 16, 2018 (Friday)
-- **Note**: Your slides **MUST** be in google slides. No exceptions!
 
 ### **[Capstone, Part 2: Problem Statement + EDA](./part_02/)**
 
-For Part 2, provide an overview of your approach to solving the problem you've chosen. Summarize your objectives, goals & success metrics, and any risks & assumptions. Outline your proposed methods and models, perform your initial EDA, and summarize the process. **Your data should be in hand by this point in the process!**
+For Part 2, provide a clear statement of the problem that you have chosen and an overview of your approach to solving that problem. Summarize your objectives, goals & success metrics, and any risks & assumptions. Outline your proposed methods and models, perform your initial EDA, and summarize the process. **Your data should be in hand by this point in the process!**
 
-#### Again, your data should be in hand by this point the process!
+**Again, your data should be in hand by this point the process!**
 
 - **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScez-8PsyIgP548fNtsoDpuNTdKxsr6tVvKPDtbr-mQov6NCw/viewform?usp=sf_link))
 - **Due**: March 9, 2018 (Friday)
