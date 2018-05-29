@@ -8,7 +8,7 @@ Your Capstone project is the culmination of your time at GA. You will be tasked 
 - A technical report aimed at fellow data scientists that explains your process and findings
 - A public presentation of your findings aimed at laypeople. 
 
-### **[Capstone, Part 1: Capstone Topic + Dataset Validation](./part_01/)**
+### **[Capstone, Part 1: Topic Proposals](./part_01/)**
 
 In Part 1, get started by choosing **three potential topics and problems**, describing your goals & criteria for success, potential audience(s), and identifying 1-2 potential datasets. In the field of data science, good projects are practical. Your capstone project should be manageable and affect a real world audience. This might be a domain you are familiar with, a particular interest you have, something that affects a community you are involved in, or an area that relates to a field you wish to work in.
 
@@ -37,9 +37,9 @@ In Part 3, you'll create a progress report of your work in order to get feedback
 
 ### **[Capstone, Part 4: Report Writeup + Technical Analysis](./part_04/)**
 
-By now, you're ready to apply your modeling skills to make machine learning predictions. Your goal for Part 4 is to develop a technical document that can be shared among your peers.
+By now, you're ready to apply your modeling skills to make machine learning predictions. Your goal for Part 4 is to develop a technical document (in the form of Jupyter notebook) that can be shared among your peers.
 
-Document your research with a summary, explaining your modeling approach as well as the strengths and weaknesses of any variables in the process. You should provide insight into your analysis, using best practices like cross validation or applicable prediction metrics.
+Document your research and analysis including a summary, an explanation of your modeling approach as well as the strengths and weaknesses of any variables in the process. You should provide insight into your analysis, using best practices like cross validation or applicable prediction metrics.
 
 - **Goal**: Detailed report and code with a summary of your statistical analysis, model, and evaluation metrics.
 - **Due**: April 6, 2018 (Friday)

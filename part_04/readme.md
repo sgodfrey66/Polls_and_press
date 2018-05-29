@@ -2,39 +2,51 @@
 
 ## Overview 
 
-The final week is here and we could not be happier to see your projects taking shape! The final two portions of the Capstone project are detailed presentation of the technical and non-technical portions of your Capstone. In Part 4, we expect a detailed account of your final model and the choices and assumptions that you made during your modeling process targeted at a fellow Data Scientist. We also expect a near-final version of your code (accepting that of course, various tweaks may occur afterwards).
+Data science requires clean data, logical study design, and reproducible results. The best way to do this (and build your portfolio) is to get in the habit of fully documenting your work for your peers and colleagues.
 
-_Goal_: A technical report and submission of (near-)final modeling code
+In Part 4 you'll assemble an technical notebook for your dataset. It should be written in a straightforward manner, with concisely commented code, documented procedures and reasoning, and logical analysis. Where applicable, include clearly labeled plots, graphs, and other visualizations, explaining any outliers and relationships between features and data.
+
+Start with a brief "executive summary" and then walk us through each portion of your notebook, step by step. Data science reporting is technical, but don’t forget that your approach should tell us a compelling story about your data.
+
+> Your problem statement is critical! Do not leave this out! Also, make sure your key-metrics are tied to every milestone within your findings.
+
+Include any additional code, data, or other materials in appendices, as needed. Above all, your process descriptions should be concise and relevant to your goals.
+
+_Goal_: A fully documented notebook for technical stakeholders.
 
 ---
 
 ## Requirements
 
-You are expected to submit the following (on your public Github account) by _end of day, April 6, 2018_:
+1. Begin with an executive summary:
+  - What is your goal?
+  - Where did you get your data?
+  - What are your metrics?
+  - What were your findings?
+  - What risks/limitations/assumptions affect these findings?
+2. Summarize your statistical analysis, including:
+  - implementation
+  - evaluation
+  - inference
+3. Clearly document and label each section
+  - Logically organize your information in a persuasive, informative manner
+  - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components
+  - Include graphs/plots/visualizations with clear labels
+  - Comment and explain the purpose of each major section/subsection of your code
+  - Document your code for your future self, as if another person needed to replicate your approach
+4. Clearly document all of your decision points in the relevant sections
+  - How did you acquire your data?
+  - How did you transform or engineer your data?  Why?
+  - How did you select your model?
+  - How did you optimize hyperparameters?
+5. Host your notebook and any other materials in your own public Github Repository
+  - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used
+  - Host a local copy of your dataset or include a link to a remotely hosted version
 
-- A technical report on your modeling choices and assumptions written for a fellow Data Scientist
-- A (near-)final version of your code
+**BONUS**
 
-### Format
-
-Your code and technical report may be in any format you choose, provided that it is clear what to look at. We will expect it to be very easy to find what version of your code is the correct one (that is why we are using version control, of course!) and where your technical report is. If it is not clear, make sure that it is or that we are informed of where to look.
-
-### Technical Report
-
-You can imagine your technical report as a primer or recipe on how to replicate your modeling process. Length and format are up to you. At a minimum, your technical report should contain:
-
-1. How you acquired your data (including any sampling that you did)
-2. How the data should be transformed, including justifying your choices
-3. How you operationalized your outcome variable, including your justification
-4. Your choice of model and any hyperparameters, including what metric or metrics you use to determine a successful model
-5. Any future deployment strategies, additions of data, or modeling techniques you have yet to try
-
-In other words, another Data Scientist should be able to take your techncial report and, without seeing your code, come up with a similar model.
-
-### Code
-
-Your code may be structured in any way you choose (though obviously, efficient and well-written code is preferred!) At this point in the process you should have your models finalized for the most part, this is to confirm your code is at a good point.
+Create a blog post of at least 1000 words summarizing your approach in a tutorial format and link to it in your notebook.  In your tutorial, address a slightly less technical audience; think back to Day 1 of the program - how would you explain and walk through your capstone project to your earlier self?
 
 ## Necessary Deliverables / Submission
 
-- Your code and technical report posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, April 6, 2018_.
+Your code and technical notebook should be posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, April 6, 2018_.
