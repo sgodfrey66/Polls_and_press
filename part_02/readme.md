@@ -39,14 +39,22 @@ Your problem statement should the guiding principle for your project.  You can t
 - Time-bound
   - What's your deadline?
 
-**BAD**: I will model emergency room visits.
-**GOOD**: I will build a regression model to predict the number of daily emergency room visits for St. Someone's Hospital.  Model performance will be guided by RMSE, and the model should at least improve upon baseline by 10%.  Baseline is defined as the monthly average of visits over the last 10 years.
+---
 
-**BAD**: I will investigate the aftermarket pricing of sneakers.
-**GOOD**: I will develop a classification model using image and text descriptions of sports sneakers to predict whether a shoe will sell for more or less than original retail in the aftermarket.  The guiding metric will be area under the ROC curve.
+- **BAD**: I will model emergency room visits.
+- **GOOD**: I will build a regression model to predict the number of daily emergency room visits for St. Someone's Hospital.  Model performance will be guided by RMSE, and the model should at least improve upon baseline by 10%.  Baseline is defined as the monthly average of visits over the last 10 years.
 
-**BAD**: I will explore the link between obesity and blood pressure.
-**GOOD**: I will quantify the association between obesity and blood pressure through regression modeling.
+---
+
+- **BAD**: I will investigate the aftermarket pricing of sneakers.
+- **GOOD**: I will develop a classification model using image and text descriptions of sports sneakers to predict whether a shoe will sell for more or less than original retail in the aftermarket.  The guiding metric will be area under the ROC curve.
+
+---
+
+- **BAD**: I will explore the link between obesity and blood pressure.
+- **GOOD**: I will quantify the association between obesity and blood pressure through regression modeling.
+
+---
 
 ## Data Guidelines
 
