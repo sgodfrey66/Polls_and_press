@@ -1,26 +1,54 @@
-# Part 2
+# Part 2: Problem Statement, EDA and Dataset
 
-Due: March 9, 2018
+## Overview
 
-### Overview
-
-In this section you will update us on your project, including the project you have chosen, an extensive outline of EDA and modeling to date, the goal of your predictive model, and the data you will use to explore that model. 
+In this section you will update us on your project, including the project you have chosen, your problem statement, an extensive outline of EDA and modeling to date, the goal of your predictive model, and the data you will use to explore that model. 
 
 **Your data must be fully in hand by this point OR you must have a solid, achievable plan to do so that has been communicated to your local instructor.**
 
-### Requirements
+## Requirements
 
 We expect a formatted and complete Jupyter Notebook by end of class on March 9, 2018 which accomplishes the following:
 
 - Identifies which of the three proposals you outlined in your lightning talk you have chosen
-- Articulates the main goal of your project
+- Articulates the main goal of your project (your problem statement)
 - Outlines your proposed methods and models
 - Defines the risks & assumptions of your data 
 - Revises initial goals & success criteria, as needed
 - Documents your data source
 - Performs & summarizes preliminary EDA of your data
 
-### Data Guidelines
+## Formulating your Problem Statement
+
+Your problem statement should the guiding principle for your project.  You can think about this as a "SMART" goal.
+
+- Specific: 
+  - What precisely do you plan to do?
+  - What type of model will you need to develop?
+- Measurable: 
+  - What metrics will you be using to assess performance? 
+  - MSE? Accuracy? Precision? AUC?
+- Achievable: 
+  - Is your project appropriately scoped?
+  - Is it too aggressive?  Too easy?
+  - *Note:* If your project is too big, break it up into smaller pieces.  Sometimes a good project is the simply one part of a larger, longer-term agenda.
+- Relevant:
+  - Does anyone care about this?
+  - Why should people be interested in your results?
+  - What value will the completion of your project be adding?
+- Time-bound
+  - What's your deadline?
+
+**BAD**: I will model emergency room visits.
+**GOOD**: I will build a regression model to predict the number of daily emergency room visits for St. Someone's Hospital.  Model performance will be guided by RMSE, and the model should at least improve upon baseline by 10%.  Baseline is defined as the monthly average of visits over the last 10 years.
+
+**BAD**: I will investigate the aftermarket pricing of sneakers.
+**GOOD**: I will develop a classification model using image and text descriptions of sports sneakers to predict whether a shoe will sell for more or less than original retail in the aftermarket.  The guiding metric will be area under the ROC curve.
+
+**BAD**: I will explore the link between obesity and blood pressure.
+**GOOD**: I will quantify the association between obesity and blood pressure through regression modeling.
+
+## Data Guidelines
 
 What should you thinking about and looking for as you collect your capstone data?
 
@@ -33,7 +61,7 @@ What should you thinking about and looking for as you collect your capstone data
   - Take copious notes, for both others and yourself, describing your assumptions and approach.
 
 
-### EDA Guidelines
+## EDA Guidelines
 
 Think about the following as you perform your initial EDA.
 
@@ -43,7 +71,7 @@ Think about the following as you perform your initial EDA.
 - Identify missing data and look for patterns of missing data.
 - Describe how your EDA will inform your modeling decisions and process.
 
-### Necessary Deliverables / Submission
+## Necessary Deliverables / Submission
 
  Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by the due date ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScez-8PsyIgP548fNtsoDpuNTdKxsr6tVvKPDtbr-mQov6NCw/viewform?usp=sf_link)).
  
@@ -52,4 +80,9 @@ Think about the following as you perform your initial EDA.
 - Create roadmap of your project with milestones.
 - Write a blog post on what you learned from your EDA.
  
+## Useful Resources
  
+- [Best practices for data documentation](https://www.dataone.org/all-best-practices) 
+- [Describing data visually](http://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html)
+- [WSJ Guide to Information Graphics (book)](https://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281)
+- [Storytelling with Data (book)](https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/)

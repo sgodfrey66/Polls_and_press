@@ -1,12 +1,10 @@
-# Part 1
-
-Due: February 16, 2018
+# Part 1: Roundtable Lightning Talks
 
 ## Overview
 
-In this section, you will be presenting three potential topics to your coursemates (and fellow well-wishers!) You will be presenting your findings in the form of a [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk). 
+In this section, you will be presenting three potential topics to your coursemates (and fellow well-wishers!) You will be presenting your findings in the form of an informal [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk). 
 
-#### Your Slides Must Be on Google Slides. No Exceptions!
+**You do not need to prepare slides for your talk.  Just be prepared to discuss it with your colleagues.**
 
 ## How to select a topic
 
@@ -28,13 +26,13 @@ For our purposes, a lightning talk is a talk lasting **no more than five minutes
 5. What are potential challenges or obstacles and how will you mitigate them?
 6. Is this a reasonable project given the time constraints that you have?
 
-Time limits will be strictly enforced -- you will get a warning at 1 minute, however.
+Time limits will be strictly enforced.
 
-## Recommendations for your presentation
+> Note that you *should not* prepare slides for your talk.  This will be verbal pitches with discussion.
 
-Practice your talk beforehand! Talking in front of people takes a large amount of skill and distilling hours of work into no more than five minutes is even more difficult. 
+## Recommendations for your lightning talk
 
-Ruthlessly cut your presentation down to whatever facts need to be in front of your audience -- there will be (many) things that are very nice for your audience to know or that may be the subject of their questions. Cut your scheduled presentation to as small of a time as you can, but feel free to include additional slides at the end of your deck in preparation for any likely questions. 
+Think about your talk as a short pitch.  It will be helpful to practice your talk beforehand!  Keep it short, succinct and to the point.
 
 Bolded and capitalized for as much effect as possible:
 
@@ -44,5 +42,10 @@ There is no penalty for having to switch topics or datasets in the middle of the
 
 ## Deliverables
 
-1. Your presentation (on time!) on February 16, 2018 
-2. A Google Slides presentation (your presentation **must** be hosted on Google Slides. No Exceptions!)
+Be prepared to discuss 3 potential topics with your peers.
+
+## Useful Resources
+
+- [How to Find the Data You Need](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
+- [16 Ways to Prepare for a Lightning Talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
+- 

@@ -50,3 +50,8 @@ Create a blog post of at least 1000 words summarizing your approach in a tutoria
 ## Necessary Deliverables / Submission
 
 Your code and technical notebook should be posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, April 6, 2018_.
+
+## Useful Resources
+
+- [How to Report Statistics to Technical Audiences](http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWstats.html)
+- [What is a good way for a data scientist to construct an online portfolio?](https://www.quora.com/What-is-a-good-way-for-a-data-scientist-to-construct-an-online-portfolio)
