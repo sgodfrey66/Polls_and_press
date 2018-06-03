@@ -47,12 +47,18 @@ Your problem statement should the guiding principle for your project.  You can t
 ---
 
 - **BAD**: I will investigate the aftermarket pricing of sneakers.
-- **GOOD**: I will develop a classification model using image and text descriptions of sports sneakers to predict whether a shoe will sell for more or less than original retail in the aftermarket.  The guiding metric will be area under the ROC curve.
+- **GOOD**: Specific image and text features of sports sneakers are predictive of determinding wether they will sell for more or less in the aftermarket.  The guiding metric will be area under the ROC curve.
 
 ---
 
 - **BAD**: I will explore the link between obesity and blood pressure.
 - **GOOD**: I will quantify the association between obesity and blood pressure through regression modeling.
+- **BETTER**: As obesity increases, how does blood pressure change?
+---
+
+- **BAD**: I will predict that sources of news are liberal or conservative.
+- **GOOD**:  I will look at text features to undersatnd how news can be classified as liberal or conservative.
+- **BETTER**: Specific text feature frequencies can determine the broader category of news sources using classification.  I will describe what makes each class charactitaristically unique, describe what is both certain and uncertain using precision and recall as success metrics.  Then I will conclude with a description of "why" my model describes potential to predict.
 
 ---
 
