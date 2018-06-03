@@ -58,7 +58,7 @@ Your problem statement should the guiding principle for your project.  You can t
 
 - **BAD**: I will predict that sources of news are liberal or conservative.
 - **GOOD**:  I will look at text features to undersatnd how news can be classified as liberal or conservative.
-- **BETTER**: Specific text feature frequencies can determine the broader category of news sources using classification.  I will describe what makes each class charactitaristically unique, describe what is both certain and uncertain using precision and recall as success metrics.  Then I will conclude with a description of "why" my model describes potential to predict.
+- **BETTER**: Specific text feature frequencies can determine the broader category of news sources using classification.  I will describe what makes each class charactitaristically unique, describe what is both certain and uncertain using precision and recall as success metrics.  Then I will conclude with a description of "why" my model describes potential to predict these two categories.
 
 ---
 
