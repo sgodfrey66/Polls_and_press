@@ -8,7 +8,7 @@ In this section you will update us on your project, including the project you ha
 
 ## Requirements
 
-We expect a formatted and complete Jupyter Notebook by end of class on March 9, 2018 which accomplishes the following:
+We expect a formatted and complete Jupyter Notebook by end of class on June 20th, 2018 which accomplishes the following:
 
 - Identifies which of the three proposals you outlined in your lightning talk you have chosen
 - Articulates the main goal of your project (your problem statement)
