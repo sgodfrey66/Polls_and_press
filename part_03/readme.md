@@ -2,7 +2,7 @@
 
 ## Overview
 
-Progress report due March 29, 2018.
+Progress report due Monday, July 2, 2018.
 
 The finish line is in sight! You should have your data in hand and some models made. This portion of the Capstone contains two parts to help really hone your model and develop mastery over your final project.
 
