@@ -76,7 +76,7 @@ Create a blog post of at least 1000 words summarizing your approach in a tutoria
 
 ## Necessary Deliverables / Submission
 
-Your code and technical notebook should be posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, April 6, 2018_.
+Your code and technical notebook should be posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, July 13, 2018_.
 
 ## Useful Resources
 
