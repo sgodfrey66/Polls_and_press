@@ -12,7 +12,7 @@ The finish line is in sight! You should have your data in hand and some models m
 
 ## Requirements
 
-The actual deliverable for this section is fairly small. You are expected to submit, via Google Form, a progress report detailing where you are at with your Capstone. The format and content is up to you but, at a minimum, we expect the following:
+The actual deliverable for this section is fairly small. You are expected to submit, via [this Google form](https://goo.gl/forms/TqJ6ZrrAuJ5A3HWB3), a progress report detailing where you are with your Capstone. The format and content is up to you but, at a minimum, we expect the following:
 
 1. Do you have data fully in hand and if not, what blockers are you facing?
 2. Have you done a full EDA on all of your data?
@@ -24,8 +24,8 @@ The actual deliverable for this section is fairly small. You are expected to sub
 
 We will use your progress report as a leaping off point for a deep 1:1 with a member of the instructional staff. The best use of your time is to really flesh out this document so that your remaining time here can be most productive.
 
-After you submit this document no later than *end of day, March 29, 2018* (a submission link will be provided prior to the due date), the instructional team will set up times to meet individually with you to discuss the Capstone with your progress report as a jumping off point.
+After you submit this document no later than *end of day, March 29, 2018*.
 
 ## Necessary Deliverables / Submission
 
-- Your progress report (touching on the points above) submitted no later than *end of day, March 29, 2018* and a successful 1:1 with a member of the instructional staff.
+- Your progress report (touching on the points above) submitted no later than *end of day, March 29, 2018* on [this form](https://goo.gl/forms/TqJ6ZrrAuJ5A3HWB3).
