@@ -24,8 +24,8 @@ The actual deliverable for this section is fairly small. You are expected to sub
 
 We will use your progress report as a leaping off point for a deep 1:1 with a member of the instructional staff. The best use of your time is to really flesh out this document so that your remaining time here can be most productive.
 
-After you submit this document no later than *end of day, March 29, 2018*.
+After you submit this document no later than *end of day, July 2, 2018*.
 
 ## Necessary Deliverables / Submission
 
-- Your progress report (touching on the points above) submitted no later than *end of day, March 29, 2018* on [this form](https://goo.gl/forms/TqJ6ZrrAuJ5A3HWB3).
+- Your progress report (touching on the points above) submitted no later than *end of day, July 2, 2018* on [this form](https://goo.gl/forms/TqJ6ZrrAuJ5A3HWB3).
