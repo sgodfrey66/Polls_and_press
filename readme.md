@@ -2,8 +2,6 @@
 
 Your Capstone project is the culmination of your time at GA. You will be tasked with developing an interesting question, collecting the data required to model that data, developing the strongest model (or models) for prediction, and communicating those findings to other data scientists and non-technical individuals. This introductory document lays out the five consitutent portions of the project and their due dates.
 
-> Due dates are currently TBD for this cohort.  We will have more details finalized by week 5.
-
 ## Your Deliverables
 
 - A well-made predictive model using either structured or unstructured machine learning techniques (or other technique approved in advanced by the global instructors), as well as clean, well-written code. 
