@@ -87,7 +87,7 @@ Think about the following as you perform your initial EDA.
 
 ## Necessary Deliverables / Submission
 
- Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by the due date ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScez-8PsyIgP548fNtsoDpuNTdKxsr6tVvKPDtbr-mQov6NCw/viewform?usp=sf_link)).
+ Materials must be presented in a Jupyter Notebook stored within a repository on your personal (*not* GA) GitHub. Please submit a link to this repository by the due date ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScsnI5jxsOgaF88uijbC-UbcPJnhWOjhv61DOVTAYbPghcmrw/viewform)).
  
 ### BONUS
 
