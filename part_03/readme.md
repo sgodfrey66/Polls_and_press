@@ -28,4 +28,4 @@ After you submit this document no later than *end of day, October 8, 2018*.
 
 ## Necessary Deliverables / Submission
 
-- Your progress report (touching on the points above) submitted no later than *end of day, October 8, 2018* on [this form](https://goo.gl/forms/TqJ6ZrrAuJ5A3HWB3).
+- Your progress report (touching on the points above) submitted no later than *end of day, October 8, 2018* on [this form](https://docs.google.com/forms/d/e/1FAIpQLSdXM6GkkWJrrdTnCzMmVSmoLEieDs1HSywZCH3uV-jt337JtQ/viewform?usp=sf_link).
