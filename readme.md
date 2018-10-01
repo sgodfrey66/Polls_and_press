@@ -25,7 +25,7 @@ For Part 2, provide a clear statement of the problem that you have chosen and an
 
 **Again, your data should be in hand by this point the process!**
 
-- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScez-8PsyIgP548fNtsoDpuNTdKxsr6tVvKPDtbr-mQov6NCw/viewform?usp=sf_link))
+- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScsnI5jxsOgaF88uijbC-UbcPJnhWOjhv61DOVTAYbPghcmrw/viewform))
 - **Due**: Sept 26, 2018
 
 ### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part_03/)**

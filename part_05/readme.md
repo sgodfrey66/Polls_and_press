@@ -2,11 +2,11 @@
 
 ## Congratulations!
 
-Welcome to the final day and final submission for DSI-EAST-1! It has been a long road and a challenging 3 months, but welcome to your final stop: the presentation!
+Welcome to the final day and final submission for DSI-US-5! It has been a long road and a challenging 3 months, but welcome to your final stop: the presentation!
 
 ## Deliverable
 
-You will present your project and findings in a 5-10 minute presentation on _April 10, 2018_! You should expect the members of your audience to be non-technical in nature. Your presentation should provide a summary of your problem, your approach to modeling that problem, and your ultimate findings. 
+You will present your project and findings in a 15 minute presentation on _October 22, 2018_! You should expect the members of your audience to be non-technical in nature. Your presentation should provide a summary of your problem, your approach to modeling that problem, and your ultimate findings. 
 
 ## Things to Keep in Mind
 
@@ -25,7 +25,7 @@ You will present your project and findings in a 5-10 minute presentation on _Apr
 
 ## Requirements
 
-One 5-10 minute presentation given to your fellow classmates and well-wishers.  This presentation should be geared for a *non-technical* audience.
+One 15 minute presentation given to your fellow classmates and well-wishers.  This presentation should be geared for a *non-technical* audience.
 
 ## Useful Resources
 

@@ -72,11 +72,11 @@ Create a blog post of at least 1000 words summarizing your approach in a tutoria
     - Is your data stored in the repo or available via a link?
     - If you use _any_ (_ANY_) random numbers anywhere, do you have a random seed so that you **always** get the same result?
     - Is your notebook 100% free of runtime errors?
-    - In short, if I open your notebook and click "Cell -> Run All", will your notebook run completely, without errors and give me the same result _evert_ time?
+    - In short, if I open your notebook and click "Cell -> Run All", will your notebook run completely, without errors and give me the same result _every_ time?
 
 ## Necessary Deliverables / Submission
 
-Your code and technical notebook should be posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, July 13, 2018_.
+Your code and technical notebook should be posted to your **personal GitHub** (not **git.generalassemb.ly**) and linked to us no later than  _end of day, October 18, 2018_.
 
 ## Useful Resources
 
