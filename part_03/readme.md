@@ -2,7 +2,7 @@
 
 ## Overview
 
-Progress report due Monday, October 8, 2018.
+Progress report due Wednesday, Jan 30, 2019.
 
 The finish line is in sight! You should have your data in hand and some models made. This portion of the Capstone contains two parts to help really hone your model and develop mastery over your final project.
 
@@ -24,7 +24,7 @@ The actual deliverable for this section is fairly small. You are expected to sub
 
 We will use your progress report as a leaping off point for a deep 1:1 with a member of the instructional staff. The best use of your time is to really flesh out this document so that your remaining time here can be most productive.
 
-After you submit this document no later than *end of day, October 8, 2018*.
+After you submit this document no later than *end of day, Jan 30, 2019*.
 
 ## Necessary Deliverables / Submission
 
