@@ -6,7 +6,7 @@ Welcome to the final day and final submission for DSI-US-5! It has been a long r
 
 ## Deliverable
 
-You will present your project and findings in a 15 minute presentation on _October 22, 2018_! You should expect the members of your audience to be non-technical in nature. Your presentation should provide a summary of your problem, your approach to modeling that problem, and your ultimate findings. 
+You will present your project and findings in a 15 minute presentation on _Feb 12, 2019_! You should expect the members of your audience to be non-technical in nature. Your presentation should provide a summary of your problem, your approach to modeling that problem, and your ultimate findings. 
 
 ## Things to Keep in Mind
 
