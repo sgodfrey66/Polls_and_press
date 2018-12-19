@@ -25,14 +25,14 @@ For Part 2, provide a clear statement of the problem that you have chosen and an
 
 **Again, your data should be in hand by this point the process!**
 
-- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link](https://docs.google.com/forms/d/e/1FAIpQLScsnI5jxsOgaF88uijbC-UbcPJnhWOjhv61DOVTAYbPghcmrw/viewform))
+- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link (LINK TBD)](#))
 - **Due**: Jan 16, 2019
 
 ### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part_03/)**
 
 In Part 3, you'll create a progress report of your work in order to get feedback along the way. Describe your approach, initial results, and any setbacks or lessons learned so far. Your report should include updated visual and statistical analysis of your data. You’ll also meet with your local instructional team to get feedback on your results so far!
 
-- **Goal**: Discuss progress and setbacks, include visual and statistical analysis, review with instructor. [Submit your progress update on this form.](https://docs.google.com/forms/d/e/1FAIpQLSdXM6GkkWJrrdTnCzMmVSmoLEieDs1HSywZCH3uV-jt337JtQ/viewform?usp=sf_link)
+- **Goal**: Discuss progress and setbacks, include visual and statistical analysis, review with instructor. [Submit your progress update on this form (LINK TBD).](#)
 - **Due**: Jan 30, 2019
 
 ### **[Capstone, Part 4: Report Writeup + Technical Analysis](./part_04/)**
