@@ -12,7 +12,7 @@ The finish line is in sight! You should have your data in hand and some models m
 
 ## Requirements
 
-The actual deliverable for this section is fairly small. You are expected to submit, via [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdXM6GkkWJrrdTnCzMmVSmoLEieDs1HSywZCH3uV-jt337JtQ/viewform?usp=sf_link), a progress report detailing where you are with your Capstone. The format and content is up to you but, at a minimum, we expect the following:
+The actual deliverable for this section is fairly small. You are expected to submit, via [this Google form (LINK TBD)](#), a progress report detailing where you are with your Capstone. The format and content is up to you but, at a minimum, we expect the following:
 
 1. Do you have data fully in hand and if not, what blockers are you facing?
 2. Have you done a full EDA on all of your data?
@@ -28,4 +28,4 @@ After you submit this document no later than *end of day, Jan 30, 2019*.
 
 ## Necessary Deliverables / Submission
 
-- Your progress report (touching on the points above) submitted no later than *end of day, October 8, 2018* on [this form](https://docs.google.com/forms/d/e/1FAIpQLSdXM6GkkWJrrdTnCzMmVSmoLEieDs1HSywZCH3uV-jt337JtQ/viewform?usp=sf_link).
+- Your progress report (touching on the points above) submitted no later than *end of day, October 8, 2018* on [this form (Link TBD)](https://docs.google.com/forms/d/e/1FAIpQLSdXM6GkkWJrrdTnCzMmVSmoLEieDs1HSywZCH3uV-jt337JtQ/viewform?usp=sf_link).
