@@ -18,8 +18,8 @@ class ScatterPlotPlotly:
 	and feel of the chart and standardizing that look with other charts in 
 	the notebook.
 
-	Libraries and uses
-	------------------
+	Libraries
+	---------
 	The following libraries are used in this object:
 		import plotly
 		import plotly.plotly as py
@@ -75,30 +75,22 @@ class ScatterPlotPlotly:
 
 	methods
 	----------
-	create_traces 
+	 __init__(self, data = None, x_column = '', y_columns = [], 
+				mode = '', dual_axes = False, c_title = '',  x_axis_title = '',
+				y_axis_title = '', show_legend = True, out_file = '', **kwargs)
+		Initialize the class object.
+	create_traces(self)
 		Create plotly traces for graphing.	
-		Inputs: 
-			none
-		output: 
-			list of trace objects
-	set_font
+		output : list of trace objects
+	set_font(self, where = '')
 		Set font to be used in a particular graphing object.
-		Inputs:
-			where : string
-		Output:
-			dictionary of font parameters
-	define_layout
+		Output : dictionary of font parameters
+	define_layout(self)
 		Create layout object to be used in draw_plot method.
-		Inputs:
-			none
-		Output:
-			Plotly layout object
-	draw_plot
+		Output : Plotly layout object
+	draw_plot(self)
 		Draw the ROC curve and create the confusion matrix table.
-		Inputs:
-			none
-		Output:
-			In notebook graph
+		Output : In notebook graph
 
 
 	"""
@@ -259,8 +251,8 @@ class ClassSummaryPlotly:
 	an x-axis equal to the false positive rate (FPR).  The confusion table contains the actual and 
 	predicted values in the format of sklearn.
 
-	Libraries and uses
-	------------------
+	Libraries
+	---------
 	The following libraries are used in this object:
 		import plotly
 		import plotly.plotly as py
@@ -322,30 +314,22 @@ class ClassSummaryPlotly:
 
 	methods
 	----------
-	create_traces 
+	__init__(self, data = None, fpr_column = '', tpr_columns = [], conf_matrix = 0,
+				class_names = [], mode = '', c_title = '',  x_axis_title = '',
+				y_axis_title = '', show_legend = True, out_file = '', **kwargs)
+		Initialize the class object.
+	create_traces(self)
 		Create plotly traces for graphing.	
-		Inputs: 
-			none
-		output: 
-			list of trace objects
-	set_font
+		output : list of trace objects
+	set_font(self, where = '')
 		Set font to be used in a particular graphing object.
-		Inputs:
-			where : string
-		Output:
-			dictionary of font parameters
-	define_layout
+		Output : dictionary of font parameters
+	define_layout(self)
 		Create layout object to be used in draw_plot method.
-		Inputs:
-			none
-		Output:
-			Plotly layout object
-	draw_plot
+		Output : Plotly layout object
+	draw_plot(self)
 		Draw the ROC curve and create the confusion matrix table.
-		Inputs:
-			none
-		Output:
-			In notebook graph
+		Output : In notebook graph
 
 	"""
 	_defaults = {

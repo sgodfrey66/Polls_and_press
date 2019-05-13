@@ -9,18 +9,13 @@ from sklearn.base import TransformerMixin
 # Models
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import BernoulliNB
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import RidgeClassifier
 
 # Preprocessing tools
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import label_binarize
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 
 # Modeling processors
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -34,23 +29,112 @@ from sklearn.metrics import accuracy_score
 
 # Return a dense matrix
 class DenseTransformer(TransformerMixin):
+	"""
+	A class object in the structure of sklearn modeling classes to transform a sparse array
+	to a dense array.  This is designed to be incorporated into pipe objects in which there
+	is a vectorizer producing a sparse matrix and a model that requires a dense matrix input.
+
+	Reference
+	---------
+	# see https://stackoverflow.com/questions/28384680/
+	# scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
+
+	libraries
+	---------
+	from sklearn.base import TransformerMixin
+
+	Methods
+	-------
+	fit(self, X, y=None, **fit_params)
+		Return self
+	transform(self, X, y=None, **fit_params)
+		Return a dense array from the X input
+		output : dense array
+
+	"""
+
 	def fit(self, X, y=None, **fit_params):
 		return self
 	def transform(self, X, y=None, **fit_params):
 		return X.todense()
-	# see https://stackoverflow.com/questions/28384680/
-	# scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
+
+
 
 class ClassModels:
-	scale = True
+	"""
+	Evaluate any number of several classification models over a specified X and y dataset.  The models
+	can be GaussianNB, KNeighborsClassifier or RandomForestClassifier and the feature set can include
+	numeric variables or text fields that require vectorization.
+
+	Libraries and uses
+	------------------
+	# Python utilities
+	import pandas as pd
+	import numpy as np
+	from scipy import interp
+
+	# Base sklearn
+	from sklearn.base import TransformerMixin
+
+	# Models
+	from sklearn.naive_bayes import GaussianNB
+	from sklearn.neighbors import KNeighborsClassifier
+	from sklearn.ensemble import RandomForestClassifier
+
+	# Preprocessing tools
+	from sklearn.model_selection import StratifiedShuffleSplit
+	from sklearn.preprocessing import StandardScaler
+	from sklearn.preprocessing import label_binarize
+	from sklearn.feature_extraction.text import CountVectorizer
+
+	# Modeling processors
+	from sklearn.model_selection import train_test_split, GridSearchCV
+	from sklearn.pipeline import Pipeline
+
+	# Evaluation tools
+	from sklearn.metrics import roc_curve, auc
+	from sklearn.metrics import confusion_matrix
+	from sklearn.metrics import accuracy_score
+	
+
+	Parameters
+	----------
+	vectorizer : sklearn vectorizing class
+		A class object speficiying the vectorizer to be used on every x column.  If set to None,
+		no vectorizing is applied.  Only CountVectorizer() is supported at this time.
+	model : sklearn model class
+		A class object specifying the model to be used. GaussianNB(), KNeighborsClassifier() and
+		RandomForestClassifier() are supported at this stage.
+	pipe : sklearn pipeline object
+		A sklearn pipeline object defining the steps in the processing and modeling pipeline.  This 
+		is defined by the define_pipe method.
+	pipe_params : dictionary
+		Parameters for the pipe to be employed in a grid search.
+	n_splits : integer
+		Number of splits for the cross-validation grid search.
+	random_state : integer
+		Random seed for the cross-validation grid search.
+
+	methods
+	----------
+	__init__(self, vectorizer = None, model = None, n_splits = 3, random_state = 223)
+		Initialize the class object.
+	fit_model(self, df, x_cols, y_col)
+		Fit model using the relevant pipe, pipe_params in gridsearchcv().
+		output : dictionary with fitted model outputs including predictions and evaluation metrics
+
+	"""
+
 	vectorizer = None
 	model = None
 	description = ''
 	pipe = None
 	pipe_params = None
 	n_splits = 3
+	random_state = 223
 	
-	def __init__(self, vectorizer = None, model = None, n_splits = 3):
+	def __init__(self, vectorizer = None, model = None, 
+				n_splits = 3, random_state = 223):
 		# set the variable description and use that in the object
 		if vectorizer == None and isinstance(model,GaussianNB):
 			self.description = 'Naive Bayes without vectorization'
@@ -59,7 +143,7 @@ class ClassModels:
 			self.description = 'K Nearest Neighbors without vectorization'
 			
 		elif vectorizer == None and isinstance(model,RandomForestClassifier):
-			self.description = 'Random Forest classification without vectorization'
+			self.description = 'Random Forest without vectorization'
 			
 		elif isinstance(vectorizer, CountVectorizer) and isinstance(model,GaussianNB):
 			self.description = 'Naive Bayes with Count Vectorization'
@@ -68,7 +152,7 @@ class ClassModels:
 			self.description = 'K Nearest Neighbors with Count Vectorization'
 			
 		elif isinstance(vectorizer, CountVectorizer) and isinstance(model,RandomForestClassifier):
-			self.description = 'Random Forest classification with Count Vectorization'       
+			self.description = 'Random Forest with Count Vectorization'       
 		else:
 			self.description = 'Configuration not supported'
 		
@@ -76,6 +160,7 @@ class ClassModels:
 		self.n_splits = n_splits
 		self.model = model
 		self.vectorizer = vectorizer
+		self.random_state = random_state
 	 
 	# Define the pipes
 	def define_pipe(self):
@@ -154,7 +239,7 @@ class ClassModels:
 			mod_out = {}
 
 			# Split the testing data into n_splits treain/test periods
-			cv = StratifiedShuffleSplit(n_splits = self.n_splits)
+			cv = StratifiedShuffleSplit(n_splits = self.n_splits, random_state = self.random_state)
 			gs = GridSearchCV(estimator = self.pipe, 
 							  param_grid = self.pipe_params, 
 							  cv = cv,
@@ -168,7 +253,7 @@ class ClassModels:
 			for i in range(self.n_splits):
 				key = 'split' + str(i) + '_test_score'
 				if gs.cv_results_[key] >= max_sc:
-					max_sc  =gs.cv_results_[key]
+					max_sc  = gs.cv_results_[key]
 					index = i
 
 			# Set the values of train and test based on these indices
@@ -178,13 +263,20 @@ class ClassModels:
 			y_train = y.iloc[tt_split[0]]
 			y_test = y.iloc[tt_split[1]]
 
-			# Get the vectorized values for X_train, X_test
+			# If vectorizer is present in pipe, set X to vectorized models
 			if self.vectorizer != None:
-				X_train = gs.best_estimator_.named_steps['vec'].transform(X_train).toarray()				
-				X_test = gs.best_estimator_.named_steps['vec'].transform(X_test).toarray()
+				# Re-vectorize X
+				X_train = gs.best_estimator_.named_steps['vec'].fit_transform(X_train)
+				X_train = gs.best_estimator_.named_steps['to_array'].transform(X_train)
+				X_test = gs.best_estimator_.named_steps['vec'].transform(X_test)
+				X_test = gs.best_estimator_.named_steps['to_array'].transform(X_test)
 
-			# Create predictions
-			y_predict = gs.best_estimator_.named_steps['mod'].predict(X_test)
+				# Create predictions using vectorized X
+				y_predict = gs.best_estimator_.named_steps['mod'].fit(X_train,y_train).predict(X_test)
+			else:
+				# Create predictions using the unvectorized X
+				y_predict = gs.best_estimator_.named_steps['mod'].predict(X_test)
+
 			
 			# To create ROC curve - create a dataframe of predictions
 			y_test.name = 'actual'
