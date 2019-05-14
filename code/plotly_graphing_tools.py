@@ -45,7 +45,8 @@ class ScatterPlotPlotly:
 		of the chart where multiple sactter plots can be placed on the same 
 		graph.
 	mode : string
-		Corresponds to the plot.ly scatter mode.  Values = 'lines', 'markerts', 'lines-markers'
+		Corresponds to the plot.ly scatter mode.  Values = 'lines', 'markers', 'lines+markers',
+		'markers+text'. If 'markers+text', the data_labels will be used for text annotations.
 	dual_axes : boolean
 		Employ a single or dual y-axes.  True sets to y-axes, false to a single x-axis.
 	c_title : string
@@ -105,6 +106,7 @@ class ScatterPlotPlotly:
 	data = None
 	x_column = ''
 	y_columns = []
+	data_labels = []
 	mode  = ''
 	dual_axes = False
 	c_title  = ''
@@ -113,7 +115,7 @@ class ScatterPlotPlotly:
 	show_legend = True
 	out_file = ''
 
-	def __init__(self, data = None, x_column = '', y_columns = [], 
+	def __init__(self, data = None, x_column = '', y_columns = [], data_labels = [],
 				mode = '', dual_axes = False, c_title = '',  x_axis_title = '',
 				y_axis_title = '', show_legend = True, out_file = '',
 				**kwargs):
@@ -123,6 +125,7 @@ class ScatterPlotPlotly:
 		self.data = data
 		self.x_column = x_column
 		self.y_columns = y_columns
+		self.data_labels = data_labels
 		self.mode = mode
 		self.dual_axes = dual_axes 
 		self.c_title =  c_title
@@ -148,7 +151,9 @@ class ScatterPlotPlotly:
 				y = self.data[col[0]],
 				mode = self.mode,
 				name = col[1],
-				yaxis=y_axis[i]
+				yaxis=y_axis[i],
+				text=self.data_labels,
+				textposition='top center'
 			)
 			traces.append(trace)
 		return traces
@@ -239,7 +244,7 @@ class ScatterPlotPlotly:
 	 	# Draw the plot
 		plot_figure = go.Figure(data = self.create_traces(), layout = self.define_layout())
 		if self.out_file != '':
-			pio.write_image(fig = plot_figure, file = self.filename)
+			pio.write_image(fig = plot_figure, file = self.out_file)
 		plotly.offline.iplot(plot_figure)
 
 
@@ -505,6 +510,6 @@ class ClassSummaryPlotly:
 	 	# Draw the plot
 		plot_figure = go.Figure(data = self.create_traces(), layout = self.define_layout())
 		if self.out_file != '':
-			pio.write_image(fig = plot_figure, file = self.filename)
+			pio.write_image(fig = plot_figure, file = self.out_file)
 		plotly.offline.iplot(plot_figure)
 
