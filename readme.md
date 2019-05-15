@@ -1,54 +1,67 @@
-# Capstone Project
+# Analyzing the relationship between press coverage and polling performance
 
-Your Capstone project is the culmination of your time at GA. You will be tasked with developing an interesting question, collecting the data required to model that data, developing the strongest model (or models) for prediction, and communicating those findings to other data scientists and non-technical individuals. This introductory document lays out the five consitutent portions of the project and their due dates.
+### Stephen Godfrey, DSI-CC7-San Francisco
 
-## Your Deliverables
+### Problem Statement
 
-- A well-made predictive model using either structured or unstructured machine learning techniques (or other technique approved in advanced by the global instructors), as well as clean, well-written code. 
-- A technical report aimed at fellow data scientists that explains your process and findings
-- A public presentation of your findings aimed at laypeople. 
+Explore and quantify the relationship between press coverage and polling performance.
 
-### **[Capstone, Part 1: Topic Proposals](./part_01/)**
 
-In Part 1, get started by choosing **three potential topics and problems**, describing your goals & criteria for success, potential audience(s), and identifying 1-2 potential datasets. In the field of data science, good projects are practical. Your capstone project should be manageable and affect a real world audience. This might be a domain you are familiar with, a particular interest you have, something that affects a community you are involved in, or an area that relates to a field you wish to work in.
 
-One of the best ways to test ideas quickly is to share them with others. A good data scientist has to be comfortable discussing ideas and presenting to audiences. That's why for Part 1 of your Capstone project, you'll be preparing a lightning talk in addition to your initial notebook outlining the scope of your project.  You will present your candidate topics in a slide deck, and should be prepared to answer questions and defend your data selection(s). Presentations should take no more than 3-5 minutes.
+### Executive Summary
 
-**The ultimate choice of topic for your capstone project is yours!** However, this is research and development work. Sometimes projects that look easy can be difficult and vice versa. It never hurts to have a second (or third) option available.
+Candidate polling is an important part of the political campaign process.  Poll results are closely watched by voters, journalists and, of course, candidates and their campaigns.  An increases in poll standings can help a campaign build momentum, solidy support and spur fundraising.  Decreases can have the opposite effects. Polls are particularly important in races with many candidates, as each participant struggles to differentiate from the pack.  Poll numbers can provide one metric by which candidates argue that they are achieving such differentiation.   As this is being written in May 2019, the U.S. is in the early stages of the 2020 presidential election and there are already some 20 Democratic candidates vying to earn their party's nomination and face the likely Republican nominee, Donald Trump.  Understanding poll drivers is of keen interest to these candidates, their supporters and opponents and to neutral observers.
 
-- **Goal**: Prepare a 3-5 minute lightning talk that covers three potential topics, including potential sources of data, goals, metrics and audience.
-- **Due**: Apr 10, 2019
+One driver is media reporting and this analysis employs quantitative techniques to explore and model the relationship between press coverage and poll results.  To do so, I study the 2016 Republican presidential primary contest since it has similarities to today's Democratic race and might be a source of useful insights.  The approach is to build a data set that consists of poll results and key press-coverage metrics and themes from 2015 and 2016, a period in which the primary election process trimmed the a field consisting of many candidates down to one winner, Donald Trump.
 
-### **[Capstone, Part 2: Problem Statement + EDA](./part_02/)**
+The steps in the analysis are to use the data to make both qualitative and quantitative observations.  Quantitative observations are made by constructing models that use press coverage variables to predict future poll performance. 
 
-For Part 2, provide a clear statement of the problem that you have chosen and an overview of your approach to solving that problem. Summarize your objectives, goals & success metrics, and any risks & assumptions. Outline your proposed methods and models, perform your initial EDA, and summarize the process. **Your data should be in hand by this point in the process!**
 
-**Again, your data should be in hand by this point the process!**
+### Conclusions and Recommendations
 
-- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link (LINK TBD)](#))
-- **Due**: April 24, 2019
 
-### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part_03/)**
 
-In Part 3, you'll create a progress report of your work in order to get feedback along the way. Describe your approach, initial results, and any setbacks or lessons learned so far. Your report should include updated visual and statistical analysis of your data. You’ll also meet with your local instructional team to get feedback on your results so far!
+### Notebooks
 
-- **Goal**: Discuss progress and setbacks, include visual and statistical analysis, review with instructor. [Submit your progress update on this form (LINK TBD).](#)
-- **Due**: May 6, 2019
+* [Poll results](code/Poll_data_2016.ipynb)
+* [Press coverage](code/Google_BigQuery.ipynb)
+* [Data construction](code/Data_construction.ipynb)
+* [Data modeling](code/Data_modeling.ipynb)
 
-### **[Capstone, Part 4: Report Writeup + Technical Analysis](./part_04/)**
 
-By now, you're ready to apply your modeling skills to make machine learning predictions. Your goal for Part 4 is to develop a technical document (in the form of Jupyter notebook) that can be shared among your peers.
 
-Document your research and analysis including a summary, an explanation of your modeling approach as well as the strengths and weaknesses of any variables in the process. You should provide insight into your analysis, using best practices like cross validation or applicable prediction metrics.
+### Data
 
-- **Goal**: Detailed report and code with a summary of your statistical analysis, model, and evaluation metrics.
-- **Due**: May 14, 2019
+#### Data sources:
 
-### **[Capstone, Part 5: Presentation + Recommendations](./part_05/)**
+To conduct this analysis both polling press-coverage data are required.  These were collected from two different sources, [FiveThirtyEight](https://fivethirtyeight.com/) and the Global Data on Events, Language and Tone or [GDELT](https://www.gdeltproject.org/) project.  
 
-Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science! That's why for Part 5, you'll create a presentation of your previous findings with a non-technical audience in mind.
+FiveThirtyEight is a analytical service with a popular website that provides quantitative and statistical analysis of politics, sports, science and health, economics and culture.  For this project, polling data from the 2015/2016 Republican presidential primary were obtained from a specific FiveThirtyEight [page](https://projects.fivethirtyeight.com/election-2016/national-primary-polls/republican/). These data covered 670 polls between Jan 25, 2015 and May 3, 2016 and included results for 11 candidates (Donald Trump, John Kasich, Ted Cruz, Marco Rubio, Ben Carson, Jeb Bush, Chris Christie, Carly Fiorina, Rick Santorum, Rand Paul and Mike Huckabee).
 
-You should already have the analytical work complete, so now it's time to clean up and clarify your findings. Come up with a detailed slide deck or interactive demo that explains your data, visualizes your model, describes your approach, articulates strengths and weaknesses, and presents specific recommendations. Be prepared to explain and defend your model to an inquisitive audience!
+GDELT is supported by Google Jigsaw and is a project thats monitors "the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world." For this project, data were pulled from GDELT's Global Knowledge Graph Version 2 (GKG V2) database related the aforementioned candidates.  Specifically, the GDELT CKG values for tone, positive and negative scores, polarity and activity reference density and self reference density and a compilation of article themes were captured. 
 
-- **Goal**: Detailed presentation deck that relates your data, model, and findings to a non-technical audience.
-- **Due**: May 17, 2019
+Details of the process used to acquire, clean and store data can be found in the Poll_data_2016.ipynb and Google_BigQuery.ipynb notebooks available in the project GitHub repository.
+
+ 
+
+
+#### Modeling data dictionary:
+
+
+|Column        |Description    |
+|-----------------|--------------------|
+|end_time|  a date string correspondiong to a poll's end date|
+|subject  | name of the subject of the press metrics|
+|poll_result| the result for the subject in the poll ending on end_time|
+|next_poll | a three-class classification variable for performance in the next poll (-1 = down, 0 = flat, 1 = up)|
+|subject_end_time| a concatenation of subject and end date used for indexing|
+|art_count  | the count of articles including the subject's name and within the time interval|
+|word_count| the sum of the word counts of returned articles|
+|tone_avg| the average of GDELT's tone measure for the returned articles|
+|pos_score_avg  |the average of GDELT's positive score for the returned articles|
+|neg_score_avg| the average of GDELT's negative score for the returned articles|
+|polarity_avg| the average of GDELT's polarity measure for the returned articles|
+|act_ref_den_avg  | the average of GDELT's active reference density measure for the returned articles|
+|self_ref_den_avg|  the average of GDELT's self reference density measure for the returned articles|
+|themes| a compilation of the themes for articles since the last poll (capped 2000)|
+

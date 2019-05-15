@@ -153,7 +153,8 @@ class ScatterPlotPlotly:
 				name = col[1],
 				yaxis=y_axis[i],
 				text=self.data_labels,
-				textposition='top center'
+				textposition='top center',
+				textfont = self.set_font(where  = 'tick')
 			)
 			traces.append(trace)
 		return traces

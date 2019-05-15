@@ -119,6 +119,9 @@ class ClassModels:
 	----------
 	__init__(self, vectorizer = None, model = None, n_splits = 3, random_state = 223)
 		Initialize the class object.
+	define_pipe(self):
+		Based on the vectorizer and model passed in the initialization of the object, construct 
+		a sklearn pipe object and a pipe parameters dictionary for use in the fit_model method.
 	fit_model(self, df, x_cols, y_col)
 		Fit model using the relevant pipe, pipe_params in gridsearchcv().
 		output : dictionary with fitted model outputs including predictions and evaluation metrics
